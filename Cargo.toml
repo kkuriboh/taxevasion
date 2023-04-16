@@ -1,0 +1,16 @@
+[package]
+name = "taxevasion"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# async-recursion = "1.0.4"
+poise = "0.5.2"
+rand = "0.8.5"
+# serenity = "0.11.5"
+tokio = { version = "1.27.0", features = ["full"] }
+
+[build-dependencies]
+dotenv-build = "0.1.1"
